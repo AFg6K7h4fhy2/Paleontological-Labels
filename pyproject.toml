@@ -13,9 +13,12 @@ keywords = ["python", "geology", "paleontology", "chronostratigraphy"]
 python = "^3.12"
 pre-commit = "^3.7.0"
 
-[tool.poetry.urls]
-"Repository Issues" = "https://github.com/AFg6K7h4fhy2/Paleo-Utils/issues"
-"Author Homepage" = "https://github.com/AFg6K7h4fhy2"
+
+[tool.poetry.group.dev.dependencies]
+toml = "^0.10.2"
+ipykernel = "^6.29.5"
+matplotlib = "^3.10.0"
+attrs = "^24.3.0"
 
 [build-system]
 requires = ["poetry-core"]
